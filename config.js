@@ -8,17 +8,17 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "nowtyhashan44@gmail.com";
 global.location = "Matara,Srilanka";
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://hashan:2002@cluster0.si1ga4x.mongodb.net/?retryWrites=true&w=majority";
+global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia,colombo";
-global.github = process.env.GITHUB || "https://github.com/THUNDERluzer/Queen_Anita-V2";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
+global.github = process.env.GITHUB || "https://wa.me/qr/P6WADRJOKAFUK1";
 global.gurl = process.env.GURL || "https://wa.me/qr/P6WADRJOKAFUK1";
 global.website = process.env.GURL || "https://wa.me/qr/P6WADRJOKAFUK1";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/0a42a3fc893e9918176d2.jpg";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg";
 global.devs = "https://wa.me/qr/P6WADRJOKAFUK1";
-global.sudo = process.env.SUDO || ".";
+global.sudo = process.env.SUDO || "94782543893";
 global.owner = process.env.OWNER_NUMBER || "94782543893";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -27,15 +27,15 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/0a42a3fc893e9918176d2.jpg,https://telegra.ph/file/0a42a3fc893e9918176d2.jpg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg,https://telegra.ph/file/7721cf222f9790f3fcd1b.jpg";
 global.waPresence = process.env.WAPRESENCE || "unavailable";
-global.readcmds = process.env.READ_COMMAND || "true";
+global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "94782543893";
-global.read_status_from = process.env.READ_STATUS_FROM || "94782543893";
+global.read_status_from = process.env.READ_STATUS_FROM || "9782543893";
 
 global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://secret-garden-43998-4daad95d4561.herokuapp.com/";
@@ -48,8 +48,8 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "Panda",
-  author: process.env.PACK_AUTHER || "Hashan",
+  caption: process.env.CAPTION || "`Panda",
+  author: process.env.PACK_AUTHER || "Panda",
   packname: process.env.PACK_NAME || "PANDA",
   botname: process.env.BOT_NAME || "PANDA",
   ownername: process.env.OWNER_NAME || "Hashan",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "PANDA").toUpperCase(),
+  LANG: (process.env.THEME || "A N I T A").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
